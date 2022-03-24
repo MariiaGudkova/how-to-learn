@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Проектная работа 1 «Научиться учиться»">
+  <meta name="keywords" content="подходы к обучению, проблемы в обучении, цифры, факты, метод Фейнмана, принципы обучения, Джош Кауфман">
+  <meta name="author" content="Гудкова Мария">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   <title>Научиться учиться</title>
@@ -12,7 +15,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"><img src="./images/logo_place_header.svg" width="183" height="32" alt="Логотип Яндекса"></div>
+      <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Логотип Яндекса">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать &rarr;</a></p>
       <img src="./images/header-image.png" class="header__main-illustration" alt="Ф.П.Решетников «Опять двойка»">
@@ -122,31 +125,33 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"><img src="./images/kaufman-triangle.svg" width="877" height="877" alt="Синий треугольник"></div>
+        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="Синий треугольник">
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"><img src="./images/logo_place_footer.svg" width="183" height="35" alt="Логотип Яндекс Практикум"></div>
+          <img src="./images/logo_place_footer.svg" class="logo logo_place_footer" alt="Логотип Яндекс Практикум">
           <p class="footer__author">&copy; 2022. Гудкова Мария</p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <p class="footer__column-heading">О Практикуме</p>
-          <div class="footer__column-links">
-            <a href="#" class="column-links__item">Главная</a>
-            <a href="#" class="column-links__item">Концепция</a>
-            <a href="#" class="column-links__item">Наставники</a>
-          </div>
-        </div>
-        <div class="footer__column footer__column_content_social">
-          <p class="footer__social-icon">Соцсети</p>
-          <div class="footer__column-link">
-            <a href="#" class="column-link__item"><img src="./images/facebook_color_white.svg" class="item__img" width="16" height="16" alt="Логотип Facebook">Facebook</a>
-            <a href="#" class="column-link__item"><img src="./images/vk_color_white.svg" class="item__img" width="16" height="16" alt="Логотип ВКонтакте">ВКонтакте</a>
-            <a href="#" class="column-link__item"><img src="./images/instagram_color_white.svg" class="item__img" width="16" height="16" alt="Логотип Instagram">Instagram</a>
-          </div>
-        </div>
+        <nav class="footer__column footer__column_content_info">
+          <h2 class="footer__column-heading">О Практикуме</h2>
+          <ul class="footer__column-links">
+            <li><a href="#" class="footer__column-link">Главная</a></li>
+            <li><a href="#" class="footer__column-link">Концепция</a></li>
+            <li><a href="#" class="footer__column-link">Наставники</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
+          <!-- Комментарий ревьюера: В footer__column_content(_)social закралась ошибка. Тут нужен дефис (-). Не забудьте исправить и в стилях. -->
+          <!-- Модификатор написан так в соответсвии с брифом "Блок footer, элемент column, модификатор content со значением social" -->
+          <h2 class="footer__column-heading">Соцсети</h2>
+          <ul class="footer__column-links">
+            <li><a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Логотип Facebook">Facebook</a></li>
+            <li><a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" class="footer__social-icon" alt="Логотип ВКонтакте">ВКонтакте</a></li>
+            <li><a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Логотип Instagram">Instagram</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
