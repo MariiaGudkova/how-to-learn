@@ -1,0 +1,10 @@
+/* класс Микса. Затухание ссылки*/
+
+.fading {
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.fading:hover {
+    opacity: .5;
+}
