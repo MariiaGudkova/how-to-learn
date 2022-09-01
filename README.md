@@ -27,3 +27,9 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" width="40" height="40">&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="40" height="40">&nbsp;
 
+
+## **Cсылкa на GitHub Pages** 👼
+<a href="https://mariiagudkova.github.io/how-to-learn/index.html" target="_blank">mariiagudkova.github.io</a>
+
+<img src="https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=DC143C" alt=""/>
+
