@@ -29,7 +29,7 @@
 
 
 ## **Cсылкa на GitHub Pages** 👼
-<a href="https://mariiagudkova.github.io/how-to-learn/" target="_blank">mariiagudkova.github.io</a>
+<a href="https://mariiagudkova.github.io/how-to-learn" target="_blank">mariiagudkova.github.io</a>
 
 <img src="https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=DC143C" alt=""/>
 
